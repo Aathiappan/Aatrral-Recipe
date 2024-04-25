@@ -6,7 +6,7 @@ recipe.recipe_page:
   requirements:
     _permission: 'access content'
 
-recipe.jeevamitham_page:
+recipe.jeevamirtham_page:
   path: '/recipe/jeevamirtham'
   defaults:
     _controller: '\Drupal\recipe\Controller\RecipePageController::jeevamirthamContent'
@@ -27,10 +27,10 @@ recipe.beejamirtham_page:
     _title: 'Beejamirtham'
   requirements:
     _permission: 'access content'
-recipe.ganajeevamitham_page:
-  path: '/recipe/ganajeevamitham'
+recipe.ganajeevamritham_page:
+  path: '/recipe/ganajeevamritham'
   defaults:
-    _controller: '\Drupal\recipe\Controller\RecipePageController::ganajeevamithamContent'
-    _title: 'Ganajeevamitham'
+    _controller: '\Drupal\recipe\Controller\RecipePageController::ganajeevamrithamContent'
+    _title: 'Ganajeevamritham'
   requirements:
     _permission: 'access content'

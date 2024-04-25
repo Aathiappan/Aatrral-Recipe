@@ -19,8 +19,8 @@ recipe.beejamirtham:
   description: 'View Beejamirtham'
   parent: recipe.recipe
   route_name: recipe.beejamirtham_page
-recipe.ganajeevamitham:
-  title: 'Ganajeevamitham'
-  description: 'View Ganajeevamitham'
+recipe.ganajeevamritham:
+  title: 'Ganajeevamritham'
+  description: 'View Ganajeevamritham'
   parent: recipe.recipe
-  route_name: recipe.ganajeevamitham_page
+  route_name: recipe.ganajeevamritham_page
