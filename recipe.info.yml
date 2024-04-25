@@ -2,4 +2,5 @@ name: 'Aatrral Recipe'
 type: module
 description: 'Adds a menu item named Agree Recipe and loads a page with an iframe.'
 core_version_requirement: ^10
-package: Custom
+package: 'Custom'
+version: '1.0'
