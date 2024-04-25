@@ -1,0 +1,36 @@
+recipe.recipe_page:
+  path: '/recipe'
+  defaults:
+    _controller: '\Drupal\recipe\Controller\RecipePageController::content'
+    _title: 'Recipe'
+  requirements:
+    _permission: 'access content'
+
+recipe.jeevamitham_page:
+  path: '/recipe/jeevamirtham'
+  defaults:
+    _controller: '\Drupal\recipe\Controller\RecipePageController::jeevamirthamContent'
+    _title: 'Jeevamirtham'
+  requirements:
+    _permission: 'access content'
+recipe.agniashthiram_page:
+  path: '/recipe/agniashthiram'
+  defaults:
+    _controller: '\Drupal\recipe\Controller\RecipePageController::agniashthiramContent'
+    _title: 'Agniashthiram'
+  requirements:
+    _permission: 'access content'
+recipe.beejamirtham_page:
+  path: '/recipe/beejamirtham'
+  defaults:
+    _controller: '\Drupal\recipe\Controller\RecipePageController::beejamirthamContent'
+    _title: 'Beejamirtham'
+  requirements:
+    _permission: 'access content'
+recipe.ganajeevamitham_page:
+  path: '/recipe/ganajeevamitham'
+  defaults:
+    _controller: '\Drupal\recipe\Controller\RecipePageController::ganajeevamithamContent'
+    _title: 'Ganajeevamitham'
+  requirements:
+    _permission: 'access content'

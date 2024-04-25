@@ -1,0 +1,26 @@
+recipe.recipe:
+  title: 'Recipe'
+  description: 'View Recipe'
+  parent: main
+  route_name: recipe.recipe_page
+
+recipe.jeevamirtham:
+  title: 'Jeevamirtham'
+  description: 'View Jeevamirtham'
+  parent: recipe.recipe
+  route_name: recipe.jeevamirtham_page
+recipe.agniashthiram:
+  title: 'Agniashthiram'
+  description: 'View Agniashthiram'
+  parent: recipe.recipe
+  route_name: recipe.agniashthiram_page
+recipe.beejamirtham:
+  title: 'Beejamirtham'
+  description: 'View Beejamirtham'
+  parent: recipe.recipe
+  route_name: recipe.beejamirtham_page
+recipe.ganajeevamitham:
+  title: 'Ganajeevamitham'
+  description: 'View Ganajeevamitham'
+  parent: recipe.recipe
+  route_name: recipe.ganajeevamitham_page
